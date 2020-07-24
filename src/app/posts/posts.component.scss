@@ -18,13 +18,18 @@
     background-position: center;
     background-repeat: no-repeat;
 
+    img {
+        width: 100%;
+        height: auto;
+    }
+
     &::before {
         content: "";
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 99%;
         background: transparent linear-gradient(180deg, #6C63FF 0%, #C77CF1 100%);
         opacity: 0.5;
     }
