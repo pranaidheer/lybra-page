@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="33px" viewBox="0 0 32 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 35</title>
+    <g id="Consumer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-35" transform="translate(2.000000, 2.000000)" stroke="#000000" stroke-width="3">
+            <path d="M8,19 L20,19 C24.418278,19 28,22.581722 28,27 L28,29 L28,29 L0,29 L0,27 C-5.41083001e-16,22.581722 3.581722,19 8,19 Z" id="Rectangle"></path>
+            <circle id="Oval" cx="14" cy="6.5" r="6.5"></circle>
+        </g>
+    </g>
+</svg>

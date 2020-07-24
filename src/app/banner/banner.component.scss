@@ -1,0 +1,50 @@
+.banner-wrap {
+    width: 100%;
+    margin-top: 86px;
+    background-image: url("../../assets/images/banner.svg");
+    background-size: auto 80%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 86px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    .banner-content {
+        max-width: 1160px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .main-info {
+        max-width: 460px;
+        text-align: left;
+    }
+}
+
+// Tablet Styles Go Here
+@media only screen and (min-width: 1024px) and (max-width: 1160px) {
+    .banner-wrap {
+        min-height: 70vh;
+        padding: 0 40px;
+        background-size: auto 54%;
+    }
+}
+
+// Tablet Styles Go Here
+@media only screen and (min-width: 450px) and (max-width: 1023px) {
+    .banner-wrap {
+        min-height: 70vh;
+        padding: 0 40px;
+        background-image: none;
+    }
+}
+
+// Mobile Styles Go Here
+@media only screen and (max-width: 450px) {
+    .banner-wrap {
+        background-image: none;
+    }
+}

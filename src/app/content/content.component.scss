@@ -1,0 +1,127 @@
+.intro-sec {
+    max-width: 630px;
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 70px;
+}
+
+.cards-wrap {
+    margin: 0 -60px;
+}
+
+.cards {
+    padding: 40px 60px;
+    box-sizing: border-box;
+    font-weight: 200;
+    transition: all 200ms linear;
+    border-radius: 0;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #FFF7E6;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.10);
+    }
+}
+
+.video-main-wrap {
+    margin: 5rem 0;
+}
+
+.video-wrap {
+    background-image: url("../../assets/images/video-placeholder.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-content {
+    margin-left: 80px;
+}
+
+// Tablet Styles Go Here
+@media only screen and (min-width: 1024px) and (max-width: 1160px) {
+    .intro-sec {
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .cards-wrap {
+        margin: 0 0px;
+    }
+
+    .cards {
+        padding: 30px 40px;
+    }
+
+    .video-main-wrap {
+        margin: 4rem 0;
+        padding: 0 40px;
+
+        .video-content {
+            margin-left: 40px;
+        }
+    }
+}
+
+// Tablet Styles Go Here
+@media only screen and (min-width: 450px) and (max-width: 1023px) {
+    .intro-sec {
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .cards-wrap {
+        margin: 0 0px;
+    }
+
+    .cards {
+        padding: 30px 40px;
+    }
+
+    .video-main-wrap {
+        margin: 4rem 0;
+        padding: 0 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .video-content {
+            margin-left: 0px;
+            margin-top: 40px;
+        }
+    }
+    
+}
+
+// Mobile Styles Go Here
+@media only screen and (max-width: 450px) {
+    .intro-sec {
+        margin-bottom: 40px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .cards-wrap {
+        margin: 0 0px;
+        padding: 0 0px;
+        grid-template-columns: 1fr;
+
+        .cards {
+            padding: 20px 20px;
+        }
+    }
+
+    .video-main-wrap {
+        margin: 3rem 0;
+        padding: 0 20px;
+        grid-template-rows: 1fr 1fr;
+        
+        .video-content {
+            margin-left: 0;
+            margin-top: 40px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="40px" viewBox="0 0 36 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 34</title>
+    <g id="Consumer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-34" fill="#000000">
+            <rect id="Rectangle" x="6" y="0" width="4" height="5"></rect>
+            <rect id="Rectangle" x="26" y="0" width="4" height="5"></rect>
+            <path d="M32,5 C34.209139,5 36,6.790861 36,9 L36,36 C36,38.209139 34.209139,40 32,40 L4,40 C1.790861,40 2.705415e-16,38.209139 0,36 L0,9 C-2.705415e-16,6.790861 1.790861,5 4,5 L32,5 Z M32,14 L4,14 L4,36 L32,36 L32,14 Z" id="Combined-Shape"></path>
+            <rect id="Rectangle" x="8" y="19" width="4" height="4"></rect>
+            <rect id="Rectangle" x="16" y="19" width="4" height="4"></rect>
+            <rect id="Rectangle" x="24" y="19" width="4" height="4"></rect>
+        </g>
+    </g>
+</svg>

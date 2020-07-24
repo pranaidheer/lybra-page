@@ -1,0 +1,129 @@
+.testimonial-card {
+    border: 1px solid #E2E2E2;
+    border-radius: 16px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12);
+    padding: 60px 55px;
+    box-sizing: border-box;
+    margin: 0 30px;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    opacity: 0.5;
+
+    &.slick-active {
+        opacity: 1;
+    }
+}
+
+.testimonial-wrap {
+    padding: 20px 0 60px;
+    position: relative;
+}
+
+.testimonial-img {
+    max-width: 66px;
+    width: 100%;
+}
+
+.testimonial-comment {
+    text-align: left;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Mongolian;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.testimoni-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.testimoni-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid rgba(112, 112, 112, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-width: 154px;
+        width: 154px;
+        height: 154px;
+        border-radius: 50%;
+        border: 1px solid rgba(112, 112, 112, 1);
+    }
+}
+
+// Tablet Styles Go Here
+@media only screen and (min-width: 1024px) and (max-width: 1160px) {
+    .testimonial-card {
+        margin: 0 20px;
+        grid-gap: 40px;
+        grid-template-columns: 1fr;
+
+        > div {
+            order: 2;
+        }
+
+        .testimoni-img {
+            order: 1;
+        }
+    }
+}
+
+// Tablet Styles Go Here
+@media only screen and (min-width: 450px) and (max-width: 1023px) {
+    .testimonial-card {
+        margin: 0 20px;
+        grid-gap: 40px;
+        grid-template-columns: 1fr;
+
+        > div {
+            order: 2;
+        }
+
+        .testimoni-img {
+            order: 1;
+        }
+    }
+}
+
+// Mobile Styles Go Here
+@media only screen and (max-width: 450px) {
+    .testimonial-card {
+        padding: 60px 35px;
+        margin: 0 10px;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
+
+        > div {
+            order: 2;
+        }
+    }
+
+    .testimonial-comment {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .testimoni-img {
+        width: 150px;
+        height: 150px;
+        order: 1;
+
+        img {
+            max-width: 124px;
+            width: 124px;
+            height: 124px;
+        }
+    }
+}
