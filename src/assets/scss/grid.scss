@@ -1,0 +1,71 @@
+// Flex Grid ... Needed Styles Alone //
+
+.is-flex {
+    display: flex;
+}
+
+.has-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-direction-col {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.has-flex70 {
+    flex: 0 0 70%;
+}
+
+.has-flex30 {
+    flex: 0 0 30%;
+}
+
+// Grid system
+
+.grid {
+    display: grid;
+}
+
+.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.two-col {
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-gap {
+    grid-column-gap: 30px;
+}

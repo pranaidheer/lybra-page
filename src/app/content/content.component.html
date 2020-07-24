@@ -5,30 +5,12 @@
         <div class="f18p f30lh">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno</div>
     </div>
     <div class="grid three-col cards-wrap">
-        <div class="cards">
-            <div class="x-bold mb-1rem">Easy Interface</div>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc</div>
-        </div>
-        <div class="cards">
-            <div class="x-bold mb-1rem">Easy Interface</div>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc</div>
-        </div>
-        <div class="cards">
-            <div class="x-bold mb-1rem">Easy Interface</div>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc</div>
-        </div>
-        <div class="cards">
-            <div class="x-bold mb-1rem">Easy Interface</div>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc</div>
-        </div>
-        <div class="cards">
-            <div class="x-bold mb-1rem">Easy Interface</div>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc</div>
-        </div>
-        <div class="cards">
-            <div class="x-bold mb-1rem">Easy Interface</div>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc</div>
-        </div>
+        <ng-container *ngTemplateOutlet="simpleCard;"></ng-container>
+        <ng-container *ngTemplateOutlet="simpleCard;"></ng-container>
+        <ng-container *ngTemplateOutlet="simpleCard;"></ng-container>
+        <ng-container *ngTemplateOutlet="simpleCard;"></ng-container>
+        <ng-container *ngTemplateOutlet="simpleCard;"></ng-container>
+        <ng-container *ngTemplateOutlet="simpleCard;"></ng-container>
     </div>
     <div class="grid two-col video-main-wrap">
         <div class="video-wrap">
@@ -42,3 +24,10 @@
         </div>
     </div>
 </div>
+
+<ng-template #simpleCard>
+    <div class="cards">
+        <div class="x-bold mb-1rem">Easy Interface</div>
+        <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc</div>
+    </div>
+</ng-template>

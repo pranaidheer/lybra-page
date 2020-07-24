@@ -5,44 +5,24 @@
         <div class="f18p f30lh">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno</div>
     </div>
     <div class="grid three-col col-gap cards-wrap">
-        <div class="post-cards">
-            <div class="post-img">
-                <img src="assets/images/post-img.png" />
-            </div>
-            <div class="post-details">
-                <div class="is-flex align-center justify-space-between mb-2rem">
-                    <div class="is-flex align-center"><img class="mr-1rem icons" src="assets/images/calendar.svg" />10 FEB 2018</div>
-                    <div class="is-flex align-center"><img class="mr-0_5rem icons" src="assets/images/user.svg" />CEO</div>
-                </div>
-                <div class="f30p f37lh x-bold mb-2rem">Collection with <br>gift on which <br>until accounts</div>
-                <button class="link">Read More</button>
-            </div>
-        </div>
-        <div class="post-cards">
-            <div class="post-img">
-                <img src="assets/images/post-img.png" />
-            </div>
-            <div class="post-details">
-                <div class="is-flex align-center justify-space-between mb-2rem">
-                    <div class="is-flex align-center"><img class="mr-1rem icons" src="assets/images/calendar.svg" />10 FEB 2018</div>
-                    <div class="is-flex align-center"><img class="mr-0_5rem icons" src="assets/images/user.svg" />CEO</div>
-                </div>
-                <div class="f30p f37lh x-bold mb-2rem">Collection with <br>gift on which <br>until accounts</div>
-                <button class="link">Read More</button>
-            </div>
-        </div>
-        <div class="post-cards">
-            <div class="post-img">
-                <img src="assets/images/post-img.png" />
-            </div>
-            <div class="post-details">
-                <div class="is-flex align-center justify-space-between mb-2rem">
-                    <div class="is-flex align-center"><img class="mr-1rem icons" src="assets/images/calendar.svg" />10 FEB 2018</div>
-                    <div class="is-flex align-center"><img class="mr-0_5rem icons" src="assets/images/user.svg" />CEO</div>
-                </div>
-                <div class="f30p f37lh x-bold mb-2rem">Collection with <br>gift on which <br>until accounts</div>
-                <button class="link">Read More</button>
-            </div>
-        </div>
+        <ng-container *ngTemplateOutlet="postCard;"></ng-container>
+        <ng-container *ngTemplateOutlet="postCard;"></ng-container>
+        <ng-container *ngTemplateOutlet="postCard;"></ng-container>
     </div>
 </div>
+
+<ng-template #postCard>
+    <div class="post-cards">
+        <div class="post-img">
+            <img src="assets/images/post-img.png" />
+        </div>
+        <div class="post-details">
+            <div class="is-flex align-center justify-space-between mb-2rem">
+                <div class="is-flex align-center"><img class="mr-1rem icons" src="assets/images/calendar.svg" />10 FEB 2018</div>
+                <div class="is-flex align-center"><img class="mr-0_5rem icons" src="assets/images/user.svg" />CEO</div>
+            </div>
+            <div class="f30p f37lh x-bold mb-2rem">Collection with <br>gift on which <br>until accounts</div>
+            <button class="link">Read More</button>
+        </div>
+    </div>
+</ng-template>
